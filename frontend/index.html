@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Comprehensive Collection of Digital Assets - Store, organize, and share your digital assets seamlessly" />
+    <title>DigitalKitty: A Comprehensive Collection of Digital Assets</title>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Error handling script to debug white screen issues -->
+    <script>
+      window.addEventListener('error', function(event) {
+        console.error('Global error caught:', event.error);
+        alert('Error detected: ' + event.error.message);
+      });
+      
+      window.addEventListener('load', function() {
+        console.log('Window loaded successfully!');
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Add a div with id="root" where React will render your app -->
+    <div id="root"></div>
+    <!-- Link to your JavaScript entry point (main.jsx) -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
