@@ -1,6 +1,6 @@
 # DigitalKitty - Secure Digital Asset Management System
 
-![DigitalKitty Logo](frontend/src/assets/logo.jpg)
+![DigitalKitty Logo]<img src="frontend/src/assets/logo.jpg" alt="DigitalKitty Logo" height="60">
 
 A self-hosted, privacy-focused digital asset management platform built for students, professionals, and organizations who want complete control over their digital files.
 
